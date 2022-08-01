@@ -19,7 +19,8 @@ body{
     background-color: var(--dark-cyan);
     background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
-    background-position: -50px -200px, 1000px,700px;
+    background-position: -50px -300px, 1000px 500px;
+    background-attachment: fixed;
     background-size: 50%, 50%;
 }
 .card{
@@ -48,4 +49,35 @@ header{
     font-size:18px;
     padding-top: 70px;
     color:var(--very-dark-blue);
+    padding-bottom: 5px;
 }
+.age{
+    color: var(--grayish-blue);
+    font-weight: 400;
+    
+}
+.country{
+    color:var(--grayish-blue);
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+
+}
+hr{
+    border-top: 1px solid white;
+    padding-top: 10px;
+}
+.stats{
+    display: inline-block;
+}
+.number{
+color: var(--very-dark-blue);
+font-weight: 700;
+padding:0px 30px 10px 30px;
+}
+.type{
+    color:var(--grayish-blue);
+    font-size: 0.7rem;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
