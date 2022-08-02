@@ -17,7 +17,7 @@ body{
     display: flex;
     align-items: center;
     background-color: var(--dark-cyan);
-    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
     background-position: -50px -300px, 1000px 500px;
     background-attachment: fixed;
@@ -32,7 +32,7 @@ body{
     
 }
 header{
-    background-image: url(./images/bg-pattern-card.svg);
+    background-image: url(/images/bg-pattern-card.svg);
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
     padding:20px 120px 0px 120px;
