@@ -9,6 +9,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Kumbh Sans', sans-serif;
@@ -18,11 +19,10 @@ body{
     align-items: center;
     background-color: var(--dark-cyan);
     background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat;
-    background-position: -50px -300px, 950px 500px;
-    background-attachment: fixed, fixed;
-    background-size: 50%, 50%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 47vw bottom 44vh, left 49vw top 40vh;
 }
+    
 .card{
     max-width: 375px;
     margin: auto;
@@ -82,4 +82,3 @@ padding:0px 30px 10px 30px;
     padding-bottom: 20px;
     letter-spacing: 2px;
 }
-
